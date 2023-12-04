@@ -1,0 +1,97 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+canvas {
+	padding: 0;
+	margin: auto;
+	display: block;
+
+	border: black 1px solid;
+}
+
+#links {
+	display: none;
+	margin-top: -10px;
+	padding: auto;
+
+	text-align: center;
+	
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+#links h1 {
+	font-size: 50px;
+
+	letter-spacing: .2rem;
+}
+#links h2 {
+	font-size: 35px;
+}
+
+#links a {
+	color: indianred;
+}
+
+#returnButton {
+	margin-bottom: 40px;
+}
+ 
+#loadingBanner {
+	display: block;
+	margin: auto;
+	padding: 1em;
+
+	text-align: center;
+
+	letter-spacing: .2rem;
+
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+
+.placer {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.loader {
+	display: block;
+	margin: auto;
+
+	text-align: center;
+
+	width: 45px;
+	height: 40px;
+	background:
+		linear-gradient(#0000 calc(1*100%/6), #fff 0 calc(3*100%/6), #0000 0),
+		linear-gradient(#0000 calc(2*100%/6), #fff 0 calc(4*100%/6), #0000 0),
+		linear-gradient(#0000 calc(3*100%/6), #fff 0 calc(5*100%/6), #0000 0);
+	background-size: 10px 400%;
+	background-repeat: no-repeat;
+	animation: matrix 1s infinite linear;
+}
+
+@keyframes matrix {
+	0% {
+		background-position: 0% 100%, 50% 100%, 100% 100%
+	}
+
+	100% {
+		background-position: 0% 0%, 50% 0%, 100% 0%
+	}
+}

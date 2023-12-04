@@ -1,0 +1,61 @@
+10/11 to 10/18
+
+Tomas: Find a few sounds and use howler.js to set up a simple sound interface. (1-4 hours)
+
+Eduardo: Build a collection of details to add to the world i.e. spikes, light post, trees. (2-4 hours)
+
+Paul: Organize the image files (10 minutes) (done 10/12), implement flight animations(1 hour), fully implement spikes (30 minutes), implent enviornmental particles (fireflies, rain.) (1 hour.)  Consolidate Tomas's and Eduardo's work. (10-30 minutes)  
+
+on 10/18: commit shippable build to Github
+
+Note, times are estimates.
+
+10/18 to 10/25
+
+Paul: Finish envionmental particles. (2-3 hours)  Implement lamps. (1 hour)  Implement portal for flight. (1 hour)
+
+Eduardo: Finish custom pixel font. (1-2 hours)  Make or at least start on the menu graphic (2-4 hours)
+
+Tomas: Find and select button sounds (15 minutes)  Fully design the layout of the menus. (1-2 hours)
+
+Again, estimates.
+
+10/25 to 11/1
+
+Eduardo: Update backgrounds (tbd) (1-2 hours)  Build Portal/Changer and trampoline sprite (1 hour) 
+
+Tomas: Organize graphics folders (1 hour) 
+
+Paul: Implement Trampolines (30 minutes) import sprites (15 minutes) Start Music (1 hour) Implement starting, dying, and restarted (1 hour) Clean up odds and ends (1-2 hours)
+
+11/1 to 11/8
+
+Tomas: Check the sounds for when you enter a portal, start a game or when you die.  Also, trampoline sound. (1-2 hours)
+
+Eduardo: Checkpoint flag (30 minutes) Background updates (tbd) numbers and symbols for font (1 hour) Pause and play fix, portals divided
+
+Paul: Sound loading (1 hour) Music (1-3 hours) buttons (30 minutes) and checkpoints (2 hours)
+
+11/8 to 11/15
+
+Tomas: Draw menu.
+
+Eduardo: Dirt Blocks, menu,
+
+Paul: FINSH THIS GAME.
+
+11/15 to 11/22
+
+Tomas: Draw layout of how screen and win screen, find a new loading screen (30 minutes)  Level (2 hours)
+
+Eduardo: new trunks, buttons, grass, railings (2 hours)
+
+Paul: Menu Layout, 5 new tracks (5 hours)
+
+11/22 to 11/29
+
+Tomas: Design the level (2 hours)
+
+Eduardo: Main Play Button, Title Font(2 hours)
+
+Paul: Final Game Track, seam tracks together, make main menu, make credits links menu, start button, implement auras, make protal paritcles (7 hours)

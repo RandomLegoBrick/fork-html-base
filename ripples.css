@@ -1,0 +1,33 @@
+.ripple {
+	overflow: hidden;
+	font-family: "raleway", sans-serif;
+	margin-top: 35px;
+	position: relative;
+	background: #000000;
+	outline: none;
+	border: 3px solid white;
+	padding: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.2s;
+	font-size: 30px;
+	box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+	color: white;
+}
+@keyframes grow{
+	to {
+		transform: scale(40);
+		opacity: 0;
+	}
+}
+.grow {
+	opacity: 0.5;
+	border-radius: 50000px;
+	animation: grow 1s ease-out forwards;
+	background: white;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+}

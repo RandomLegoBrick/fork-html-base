@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Horizon Hopper</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+		<link href="ripples.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="icon" type="image/x-icon" href="graphics/player_block_02.png">
+	</head>
+	<body>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+
+		<div id = "load">
+			<div class = "placer">
+				<h1 id = "loadingBanner">Loading...</h1>
+				<span class = "loader"></span>
+				<button id = "start" class = "ripple">Authorize Sound</button>
+			</div>
+		</div>
+		
+		<div id = "game">
+			<canvas id = "canvas"></canvas>
+		</div>
+
+		<div id = "links">
+			<h1><b><u>LINKS:</u></b></h1>
+			<h2>Paul Barron:</h2>
+			<p>
+				<a href = "https://github.com/ZeRedBarron" target = "_blank">Github</a>
+				<br>
+				<a href = "https://www.khanacademy.org/profile/AlphadogStudios"  target = "_blank">Khan Academy</a>
+				<br>
+				<a href = "https://replit.com/@ZeRedBarron" target = "_blank">Replit</a>
+			</p>
+			<h2>Tomas Garcia:</h2>
+			<p>
+				<a href = "https://replit.com/@TomasGarcia22" target = "_blank">Replit</a>
+			</p>
+			<h2>Eduardo Jauregui:</h2>
+			<p>
+				<a href = "https://replit.com/@ejimenezjauregu" target = "_blank">Replit</a>
+			</p>
+			<h2>JP Roche:</h2>
+			<p>
+				<a href = "https://www.khanacademy.org/profile/kaid_226616569303588979232618/projects" target = "_blank">Khan Academy</a>
+			</p>
+			<h2>Matthew Anderson:</h2>
+			<p>
+				<a href = "https://github.com/randomlegobrick" target = "_blank">Github</a>
+				<br>
+				<a href = "https://replit.com/@RandomLegoBrick" target = "_blank">Replit</a>
+				<br>
+				<a href = "https://www.khanacademy.org/profile/PowerCoder/projects" target = "_blank">Khan Academy</a>
+			</p>
+			<h2>Derek Leung:</h2>
+			<p>
+				<a href = "https://jsfiddle.net/user/DerekL" >JSFiddle</a>
+			</p>
+			<br>
+			<h2>Other Links:</h2>
+			<p>
+				<a href = "https://orama-interactive.itch.io/pixelorama" target = "_blank">Pixelorama</a>
+				<br>
+				<a href = "https://howlerjs.com/" target = "_blank">Howler.js</a>
+				<br>
+				<a href = "https://www.audacityteam.org/" target = "_blank">Audacity</a>
+				<br>
+				<a href = "https://pixabay.com/" target = "_blank">Pixabay</a>
+				<br>
+				<a href = "https://www.finalemusic.com/" target = "_blank">Finale 27</a>
+				<br>
+				<a href = "https://www.noteperformer.com/" target = "_blank">Noteperformer 4</a>
+			</p>
+			<button class = "ripple" onclick = "javascript:returnToGame();" id = "returnButton">Return</button>
+			<br>
+		</div>
+		
+		<canvas id="leveldisplay"></canvas>
+
+		<script src = "javascript/ripples.js"></script>
+		<script src = "javascript/essentials.js"></script>
+		<script src = "javascript/images.js"></script>
+		<script src = "javascript/sounds.js"></script>
+		<script src = "javascript/particles.js"></script>
+		<script src = "javascript/level.js"></script>
+		<script src = "javascript/script.js"></script>
+		<script src = "javascript/menu.js"></script>
+		<script src = "javascript/main.js"></script>
+	</body>
+</html>
